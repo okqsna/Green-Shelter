@@ -1,0 +1,105 @@
+.SwiperHomePage{
+    width: 100%;
+    height: 90vh;
+}
+.mySwiper{
+    height: 83.5vh;
+    display: flex;
+    flex-direction: row;
+}
+.swiperSlide{
+    width: 100%;
+    height: 83.5vh;
+    display: flex;
+    flex-direction: row;
+}
+.content__SwiperSlide{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0px 0px 90px;
+}
+.top__txt__SwiperSlide{
+    display: flex;
+    flex-direction: column;
+}
+.top__txt__SwiperSlide .cap__top__txt__SwiperSlide{
+     font-family: 'Comfortaa';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 54px;
+     line-height: 60px;
+     color: #FFFFFF;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     width: 650px;
+}
+.top__txt__SwiperSlide .main__top__txt__SwiperSlide{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    width: 500px;
+    color: #FFFFFF;
+}
+.btn__txt__SwiperSlide{
+    width:176px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid #fff;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 10px;
+    padding: 0 10px;
+    background-color: #fff;
+    transition: 0.2s;
+    margin-top: 50px;
+}
+
+.btn__txt__SwiperSlide p{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 15px;
+    font-family: "Comfortaa";
+    color: #333;
+}
+.btn__txt__SwiperSlide:hover{
+    transition: 0.2s;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.img__SwiperSlide{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width:45%;
+}
+.img__SwiperSlide img{
+    width: 500px;
+    height: 500px;
+}
+.swiper-pagination-bullet{
+    background-color: #fff !important;
+    width: 15px !important;
+    height: 15px !important;
+}
+.swiper-button-next {
+    background-image: url("./rightarrow.svg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+.swiper-button-prev {
+    background-image: url("./leftarrow.svg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+  }
+.swiper-button-next::after, .swiper-button-prev::after {
+    display: none;
+}

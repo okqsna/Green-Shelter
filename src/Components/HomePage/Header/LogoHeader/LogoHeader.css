@@ -1,0 +1,29 @@
+.logo__Header{
+    width: 20%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.img__logo__Header{
+    width:51px;
+    height:50px;
+    background-image: url('./logo__header.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.txt__logo__Header{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;    
+    color: #fff;
+    margin-left: 13px;
+}
+.txt__logo__Header:hover{
+    font-weight: 900;
+    cursor: pointer;
+    transition: 0.2s;
+}
