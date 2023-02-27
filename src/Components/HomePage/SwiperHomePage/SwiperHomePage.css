@@ -19,6 +19,10 @@
     flex-direction: row;
     padding: 40px 0px 0px 90px;
 }
+.txt__SwiperSlide{
+    width: 55%;
+    height: 85vh;
+}
 .top__txt__SwiperSlide{
     display: flex;
     flex-direction: column;
@@ -76,9 +80,9 @@
 .img__SwiperSlide{
     width:45%;
     height: 85vh;
-    position: relative;
-    top: 20px;
-    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .swiper-pagination-bullet{
@@ -100,4 +104,80 @@
   }
 .swiper-button-next::after, .swiper-button-prev::after {
     display: none;
+}
+.img__SwiperSlide img{
+    width: 530px;
+    height: 500px;
+}
+@media only screen and (max-width:1270px) {
+    .img__SwiperSlide img{
+        width: 400px;
+        height: 390px;
+    }
+}
+@media only screen and (max-width:970px){
+    .top__txt__SwiperSlide .cap__top__txt__SwiperSlide{
+        font-size: 40px;
+        width: 500px;
+        line-height: 45px;
+    }
+    .top__txt__SwiperSlide .main__top__txt__SwiperSlide{
+        font-size: 16px;
+        width: 370px;
+    }
+} 
+@media only screen and (max-width:790px){
+    .img__SwiperSlide img{
+        width: 340px;
+        height: 330px;
+    }
+ .img__SwiperSlide{
+    width: fit-content;
+ }      
+}
+@media only screen and (max-width:690px){
+ .img__SwiperSlide{
+    display: none;
+ }      
+ .txt__SwiperSlide{
+    width: 100%;
+    justify-content: center;
+ }
+ .top__txt__SwiperSlide .cap__top__txt__SwiperSlide{
+    font-size: 30px;
+    width: 300px;
+    line-height: 45px;
+}
+.top__txt__SwiperSlide .main__top__txt__SwiperSlide{
+    font-size: 16px;
+    width: 370px;
+}
+.content__SwiperSlide{
+    align-items: center;
+}
+}
+@media only screen and (max-width:500px){
+    .top__txt__SwiperSlide .cap__top__txt__SwiperSlide{
+        font-size: 30px;
+        width: 250px;
+        line-height: 40px;
+    }
+    .top__txt__SwiperSlide .main__top__txt__SwiperSlide{
+        font-size: 16px;
+        width: 270px;
+    }
+}
+@media only screen and (max-width:380px){
+    .content__SwiperSlide{
+        padding:25px 50px;
+    }
+    .top__txt__SwiperSlide .cap__top__txt__SwiperSlide{
+        font-size: 25px;
+        width: 250px;
+        line-height: 40px;
+    }
+    .top__txt__SwiperSlide .main__top__txt__SwiperSlide{
+        font-size: 15px;
+        width: 250px;
+    }
 }

@@ -59,7 +59,7 @@ export default function SwiperHomePage() {
                   </div>
                   </div>
                   <section className="img__SwiperSlide">
-                  <img alt={item.altTxt} src={item.pic} width={item.picWidth} height={item.picHeight}></img>
+                  <img alt={item.altTxt} src={item.pic}></img>
                 </section>
                 </section>
               </SwiperSlide>
