@@ -6,3 +6,18 @@
     flex-direction: row;
     align-items: center;
 }
+@media only screen and (max-width:630px){
+    .Header{
+        padding: 50px 60px;
+    }
+}
+@media only screen and (max-width:545px){
+    .Header{
+        justify-content: space-between;
+    }
+}
+@media only screen and (max-width:357px){
+    .Header{
+        padding: 50px 25px;
+    }
+}

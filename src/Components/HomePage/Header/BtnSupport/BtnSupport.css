@@ -26,3 +26,13 @@
     border-radius: 15px;
     cursor: pointer;
 }
+@media only screen and (max-width:530px){
+    .txt__BtnSupport{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:545px){
+    .BtnSupport{
+        display: none;
+    }
+}

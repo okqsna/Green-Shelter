@@ -23,3 +23,39 @@
     cursor: pointer;
     text-underline-offset: 15px;
 }
+.menu__NavHeader{
+    display: none;
+
+}
+@media only screen and (max-width:1130px) {
+    .NavHeader nav a{
+        font-size: 14.5px;
+    }
+}
+@media only screen and (max-width:1030px) {
+    .NavHeader{
+        width: 70%;
+    }
+}
+@media only screen and (max-width:965px) {
+    .NavHeader nav a{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:800px) {
+    .NavHeader{
+        justify-content: flex-end;
+        padding-right: 20px;
+    }
+  .menu__NavHeader{
+    display: flex;
+  }
+  .a__Nav{
+    display: none;
+  }
+}
+@media only screen and (max-width:670px) {
+    .NavHeader{
+       width: fit-content;
+    }
+}

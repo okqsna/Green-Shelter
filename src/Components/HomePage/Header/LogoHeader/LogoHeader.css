@@ -27,3 +27,33 @@
     cursor: pointer;
     transition: 0.2s;
 }
+@media only screen and (max-width:1200px) {
+    .txt__logo__Header{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width:1105px) {
+    .txt__logo__Header{
+        font-size: 15px;
+    }
+    .img__logo__Header{
+        width: 48px;
+        height: 47px;
+    }
+}
+@media only screen and (max-width:1030px) {
+    .logo__Header{
+        width: 10%;
+    }
+    .txt__logo__Header{
+        display: none;
+    }
+}
+@media only screen and (max-width:670px){
+    .logo__Header{
+        width: fit-content;
+    }
+    .txt__logo__Header{
+        display: none;
+    }
+}

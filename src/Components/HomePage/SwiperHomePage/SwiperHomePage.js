@@ -11,12 +11,16 @@ const slides=[
     "caption":"Не лише люди потребують дім",
     "mainTxt":"На даний момент багато собак потребують евакувації з зони бойових дій. Цим якраз займаємося ми Green Shelter.",
     "pic":require('./dog1.webp'),
+    "picWidth":"530px",
+    "picHeight":"500px",
     "altTxt":"corgi dog"
   },
   {
     "caption":"Зараз багатьом собакам важко",
     "mainTxt":"На даний момент багато собак потребують евакувації з зони бойових дій. Цим якраз займаємося ми Green Shelter.",
-    "pic":require('./dog2.webp'),
+    "pic":require('./dog2.png'),
+    "picWidth":"510px",
+    "picHeight":"500px",
     "altTxt":"yawning dog"
   }
 ];
@@ -55,7 +59,7 @@ export default function SwiperHomePage() {
                   </div>
                   </div>
                   <section className="img__SwiperSlide">
-                  <img alt={item.altTxt} src={item.pic}></img>
+                  <img alt={item.altTxt} src={item.pic} width={item.picWidth} height={item.picHeight}></img>
                 </section>
                 </section>
               </SwiperSlide>

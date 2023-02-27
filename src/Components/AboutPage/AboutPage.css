@@ -1,0 +1,138 @@
+.AboutPage{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+.left__AboutPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+}
+.right__AboutPage{
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+}
+.left__AboutPage .img__left__AboutPage{
+    width: 500px;
+    height: 290px;
+    background-image: url('./shelter.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.right__AboutPage .caption__right__AboutPage{
+     text-align: left;
+     font-family: 'Comfortaa';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 45px;
+     color: #333;
+     width: 350px;
+     margin-bottom: 20px;
+}
+.caption__right__AboutPage span{
+    margin-right: 8px;
+    color:#4A9B8D;
+}
+.maintxt__right__AboutPage{
+     font-family: 'Comfortaa';
+     font-style: normal;
+     font-weight: 300;
+     font-size: 24px;
+     width: 500px;
+     color: #333;
+}
+@media only screen and (max-width:1130px){
+    .right__AboutPage{
+        padding: 0 20px;
+    }
+    .left__AboutPage .img__left__AboutPage{
+        width: 450px;
+        height: 240px;
+    }
+    .maintxt__right__AboutPage{
+        font-size: 20px;
+        width: fit-content;
+    }
+}
+@media only screen and (max-width:1100px){
+    .AboutPage{
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+    .left__AboutPage{
+        width: 100%;
+        height: 45vh;
+        padding-top:40px;
+    }
+    .right__AboutPage{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height:55vh;
+        padding: 0px;
+    }
+    .right__AboutPage .caption__right__AboutPage{
+        text-align: center;
+        font-size: 40px;
+        width: 320px;
+    }
+    .right__AboutPage .maintxt__right__AboutPage{
+        width: 500px;
+        text-align: center;
+    }
+    .left__AboutPage .img__left__AboutPage{
+        width: 700px;
+        height: 490px;
+    }
+    
+}
+@media only screen and (max-width:800px){
+    .left__AboutPage .img__left__AboutPage{
+        width: 600px;
+        height: 290px;
+    }
+}
+@media only screen and (max-width:670px){
+    .left__AboutPage .img__left__AboutPage{
+        width: 500px;
+        height: 290px;
+    }
+}
+@media only screen and (max-width:570px){
+    .right__AboutPage .maintxt__right__AboutPage{
+       max-width: 350px;
+    }
+    .left__AboutPage .img__left__AboutPage{
+        width: 400px;
+        height: 290px;
+    }
+}
+@media only screen and (max-width:470px){
+    .left__AboutPage{
+        justify-content: flex-end;
+    }
+
+    .right__AboutPage .maintxt__right__AboutPage{
+       max-width: 350px;
+    }
+    .left__AboutPage .img__left__AboutPage{
+        width: 300px;
+        height: 290px;
+    }
+    .right__AboutPage .caption__right__AboutPage{
+        font-size: 30px;
+        width: 250px;
+    }
+    .right__AboutPage .maintxt__right__AboutPage{
+       font-size: 17px;
+    }
+}
