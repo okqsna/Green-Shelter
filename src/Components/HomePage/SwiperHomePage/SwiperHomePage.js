@@ -18,7 +18,7 @@ const slides=[
   {
     "caption":"Зараз багатьом собакам важко",
     "mainTxt":"На даний момент багато собак потребують евакувації з зони бойових дій. Цим якраз займаємося ми Green Shelter.",
-    "pic":require('./dog2.png'),
+    "pic":require('./dog2.webp'),
     "picWidth":"510px",
     "picHeight":"500px",
     "altTxt":"yawning dog"

@@ -1,0 +1,81 @@
+.HelpPage{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #4A9B8D;
+    overscroll-behavior-y:none;
+}
+.txt__HelpPage{
+    margin-bottom: 70px;
+}
+.txt__HelpPage .p__txt__HelpPage{
+    font-family: 'Comfortaa';
+    font-weight: 600;
+    font-size: 40px;
+    color: #fff;
+    width: 611px;
+    text-align: center;
+}
+.txt__HelpPage .p__txt__HelpPage span{
+    color: #333;
+    margin-right: 10px;
+}
+.list__HelpPage{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+}
+.item__list__HelpPage{
+    margin: 0px 75px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.txt__item__list__HelpPage{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+}
+@media only screen and (max-width:820px) {
+    .HelpPage{
+        padding-top: 100px;
+        justify-content: flex-start;
+        height: 110vh;
+    }
+    .txt__HelpPage .p__txt__HelpPage{
+        font-size: 30px;
+        width: 400px;
+    }   
+    .list__HelpPage{
+        width: 550px;
+    }
+    .item__list__HelpPage{
+        margin: 0px 60px 40px 20px;
+    }
+}
+@media only screen and (max-width:560px) {
+    .HelpPage{
+        height: 190vh;
+    }
+    .txt__HelpPage .p__txt__HelpPage{
+        font-size: 25px;
+        width:300px;
+    } 
+    .list__HelpPage{
+        width: 300px;
+        justify-content: center;
+    }
+    .item__list__HelpPage{
+        width: 300px;
+        margin: 20px 0px;
+        justify-content: center;
+    }
+}
