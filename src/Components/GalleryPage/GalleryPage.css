@@ -1,0 +1,180 @@
+.GalleryPage{
+    height:max-content;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    background-color: #1A8875;
+}
+.top__GalleryPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+.top__GalleryPage .caption__top__GalleryPage{
+    color: #fff;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+}
+.top__GalleryPage .caption__top__GalleryPage span{
+    color: #333333;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+}
+.content__GalleryPage{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 20px;
+}
+#dog1{
+ margin: 40px 20px 20px 0px;  
+}
+#dog1 img{
+    width: 346px;
+    height: 341px;
+}
+#dog2 img{
+    width: 347px;
+    height: 314px;
+}
+#dog3 img{
+    width: 425px;
+    height: 184px;
+}
+#dog4 img{
+    width: 413px;
+    height: 516px;
+}
+#dog5 img{
+    width: 700px;
+    height: 321px;
+}
+#dog6 img{
+    width: 347px;
+    height: 323px;
+}
+#dog7 img{
+    width: 430px;
+    height: 208px;
+}
+#dog2{
+ margin: 10px 20px 0px 0px;  
+}
+#dog3{
+ margin-top: 140px;
+}
+#dog4{
+margin: 10px 30px 0px 0px;
+}
+#dog6{
+position: relative;
+margin-top: -170px;  
+margin-left: 520px; 
+}
+#dog7{
+    margin-left: 20px;
+    margin-top: -170px;
+}
+
+.item__content__GalleryPage img{
+    border-radius: 20px;
+}
+.item__content__GalleryPage img:hover{
+    transition:0.3s;
+    cursor: pointer;
+    box-shadow: 3px 1px 26px -10px rgba(0,0,0,0.75);
+}
+@media only screen and (max-width:1400px){
+    #dog6{
+        margin-left: 460px;
+    }
+    #dog7 img{
+        width: 330px;
+        height: 170px;
+    }
+}
+@media only screen and (max-width:1150px) {
+    #dog3{
+        margin-top: 40px;
+        margin-right: 20px;
+    }
+    #dog4{
+        margin: 0;
+    }
+    #dog4 img{
+        width: 290px;
+        height:400px;
+    }
+    #dog5 img{
+        width: 430px;
+        height: 200px;
+    }
+    #dog5{
+        position: relative;
+        margin-right: 300px;
+        margin-top: -150px;
+    }
+    #dog6{
+        margin-top: -40px;
+        margin-left: 460px;
+    }
+    #dog6 img{
+        width: 290px;
+        height: 253px;
+    }
+    #dog7{
+        margin-top: -200px;
+        margin-right: 320px;
+    }
+    #dog7 img{
+        width: 430px;
+        height: 208px;
+    }
+}
+@media only screen and (max-width: 760px){
+    .content__GalleryPage{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #dog1,#dog2,#dog3,#dog4,#dog5, #dog6,#dog7{
+        margin: 10px 0px;
+    }
+}
+@media only screen and (max-width:490px){
+    #dog1 img{
+        width:319px;
+        height: 289px;
+    }
+    #dog2 img{
+        width:319px;
+        height: 288px;
+    }
+    #dog3 img{
+        width:319px;
+        height: 138px;
+    }
+    #dog4 img{
+        width:319px;
+        height: 399px;
+    }
+    #dog5 img{
+        width:319px;
+        height: 150px;
+    }
+    #dog6 img{
+        width:319px;
+        height: 297px;
+    }
+    #dog7 img{
+        width:319px;
+        height: 200px;
+    }
+}

@@ -6,27 +6,23 @@ const helpList=[
         "image":require('./img/bowls.png')
     },
     {
-        "name":"Собача їжа",
-        "image":require('./img/food.png')
-    },
-    {
-        "name":"Іграшки",
-        "image":require('./img/toys.png')
-    },
-    {
-        "name":"Ошийники",
+        "name":"Нашийники",
         "image":require('./img/collars.png')
     },
     {
-        "name":"Медикаменти",
-        "image":require('./img/meds.png')
+        "name":"Корми",
+        "image":require('./img/food.png')
     },
     {
-        "name":"Вітаміни",
+        "name":"Препарати для обробки від кліщів",
         "image":require('./img/vitamins.png')
     },
     {
-        "name":"Будинки для собак",
+        "name":"Волонтери для догляду за собаками",
+        "image":require('./img/volunteer.png')
+    },
+    {
+        "name":"Будки для собак",
         "image":require('./img/houses.png')
     }
 ];
@@ -36,8 +32,8 @@ const HelpPage=()=>{
         <section className="HelpPage">
             <div className="txt__HelpPage">
                 <p className='p__txt__HelpPage'>
-                    <span>Чим</span>
-                    можна допомогти нашому притулку ?
+                    <span>Окрім</span>
+                    донату для будівництва, ми потребуємо:
                 </p>
             </div>
             <div className='list__HelpPage'>
