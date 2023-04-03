@@ -86,6 +86,9 @@ margin-left: 520px;
 .item__content__GalleryPage img{
     border-radius: 20px;
 }
+.item__content__GalleryPage{
+    transition:0.3s;    
+}
 .item__content__GalleryPage img:hover{
     transition:0.3s;
     cursor: pointer;
